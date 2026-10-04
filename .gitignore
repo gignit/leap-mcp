@@ -1,0 +1,17 @@
+# Build outputs
+.build/
+.swiftpm/
+dist/
+DerivedData/
+*.xcodeproj
+Package.resolved.bak
+
+# Local runtime output: test runs and downloads. (.leap/ and .runner/ add themselves to
+# .git/info/exclude when created, so they are not listed here.)
+artifacts/
+/tmp/
+
+# Editor and OS noise
+__pycache__/
+*.py[cod]
+.DS_Store
